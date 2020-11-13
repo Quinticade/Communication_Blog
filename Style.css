@@ -35,8 +35,8 @@ div.Cover-ups{
     animation-direction: alternate;
 }
 @keyframes Text_color_change2{
-    0%  {color:Black;}
-    50% {color:White;}
+    0%  {color:Red;}
+    50% {color:Black;}
     100%{color:Blue;} 
 }
 #Extra-Credi3{
@@ -46,7 +46,7 @@ div.Cover-ups{
     animation-direction: alternate;
 }
 @keyframes Text_color_change3{
-    0%  {color:Black;}
+    0%  {color:Red;}
     50% {color:White;}
-    100%{color:Blue;} 
+    100%{color:Black;} 
 }
