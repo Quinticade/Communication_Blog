@@ -9,11 +9,44 @@
     font-size: 50px;
 }
 div.Cover-ups{
-    height: 50px;
-    width: 50px;
+    height: 25px;
+    width: 25px;
     background-color: black;
     border: none;
     position: absolute;
-    left: 10;
-    top: 15;
+    left: 140;
+    top: 145;
+}
+#Extra-Credit1{
+    animation-name:Text_color_change1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Text_color_change1{
+    0%  {color:Black;}
+    50% {color:White;}
+    100%{color:Blue;} 
+}
+#Extra-Credit2{
+    animation-name:Text_color_change2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Text_color_change2{
+    0%  {color:Black;}
+    50% {color:White;}
+    100%{color:Blue;} 
+}
+#Extra-Credi3{
+    animation-name:Text_color_change3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Text_color_change3{
+    0%  {color:Black;}
+    50% {color:White;}
+    100%{color:Blue;} 
 }
