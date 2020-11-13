@@ -1,0 +1,52 @@
+#Post_Button{
+    height: 100;
+    width: 100;
+    border-radius: 33%
+}
+#Assignment{
+    background-image: linear-gradient(to right,#ff0000,#FFFFFF,#0000ff);
+    text-align: center;
+    font-size: 50px;
+}
+div.Cover-ups{
+    height: 25px;
+    width: 25px;
+    background-color: black;
+    border: none;
+    position: absolute;
+    left: 140;
+    top: 145;
+}
+#Extra-Credit1{
+    animation-name:Text_color_change1;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Text_color_change1{
+    0%  {color:Black;}
+    50% {color:White;}
+    100%{color:Blue;} 
+}
+#Extra-Credit2{
+    animation-name:Text_color_change2;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Text_color_change2{
+    0%  {color:Red;}
+    50% {color:Black;}
+    100%{color:Blue;} 
+}
+#Extra-Credit3{
+    animation-name:Text_color_change3;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes Text_color_change3{
+    0%  {color:Red;}
+    50% {color:White;}
+    100%{color:Black;} 
+}
